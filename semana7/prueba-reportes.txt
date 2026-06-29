@@ -1,0 +1,1 @@
+Al consultar la ruta GET /reportes, el sistema muestra todos los reportes que han sido registrados mediante la ruta POST. Los reportes se almacenan temporalmente en un array llamado reportes y se muestran en formato JSON. Si el servidor se detiene o se reinicia, la información se pierde porque todavía no se utiliza una base de datos.
